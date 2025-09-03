@@ -1,0 +1,36 @@
+{
+  "name": "seenv",
+  "version": "1.2.1-prerelease",
+  "description": "Secure Enhance Environment That has built-in prompt to prevent exposure.",
+  "keywords": [
+    "env",
+    "aes",
+    "encryption",
+    "crypto",
+    "dotenv",
+    "sedotenv"
+  ],
+  "homepage": "https://github.com/JeckAsChristopher/senv#readme",
+  "bugs": {
+    "url": "https://github.com/JeckAsChristopher/senv/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeckAsChristopher/senv.git"
+  },
+  "license": "MIT",
+  "author": "Jeck Christopher Anog",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security"
+  }
+}
