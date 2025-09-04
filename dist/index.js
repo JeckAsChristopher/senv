@@ -5,6 +5,13 @@ const { promptPassword, checkEnvFile, encryptBinary } = require("../lib/core/lin
 const { colorText } = require("../lib/utils/colors");
 const { logInfo } = require("../lib/utils/utils");
 
+const args = process.argv.slice(2);
+
+if (args.includes("--test")) {
+    require("./test-senv");
+    process.exit(0);
+}
+
 (async () => {
     logInfo(colorText("Finding .env in current directory...", "fgYellow"));
     const envPath = checkEnvFile();

@@ -81,6 +81,15 @@ Any script importing SENV will automatically prompt for password. If password is
 
 ---
 
+## Updates
+
+| Version | Description |
+|---------|-------------|
+| 1.2.1-prerelease | First version release with basic security implementation. |
+| 1.3.0 | Enhanced and strengthened AES encryption, switched from CBC to GCM, and improved anti-memory protection. |
+
+---
+
 ## License
 
 SENV is released under the **MIT License**. See `LICENSE.md`.
